@@ -83,13 +83,16 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS': {
-            'read_default_file':'/etc/mysql/my.cnf',
+     'default' :  { 
+        'ENGINE' :  'django.db.backends.mysql' ,   
+        'NAME' :  'dblog' ,   
+        'USER' :  'cook' , 
+        'PASSWORD' :  '1111' , 
+        'HOST' :  'localhost' ,   
+        'PORT' :  '3306' ,   
         },
     }
-}
+
 
 
 # Password validation
