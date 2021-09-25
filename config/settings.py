@@ -86,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS': {
-            'read_default_file':'/home/flex/cook_blog-main/config/my.cnf',
+            'read_default_file':'/etc/mysql/my.cnf',
         },
     }
 }
